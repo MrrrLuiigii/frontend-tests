@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "postinstall": "npm run build",
     "start": "node ./src/main.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
