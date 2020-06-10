@@ -1,4 +1,4 @@
-import { mount } from "@vue/test-utils";
+import { shallowMount } from "@vue/test-utils";
 import Counter from "@/components/Counter.vue";
 
 describe("Counter.vue", () => {
@@ -6,7 +6,7 @@ describe("Counter.vue", () => {
 
   //runs before each test
   beforeEach(() => {
-    wrapper = mount(Counter);
+    wrapper = shallowMount(Counter);
   });
 
   //checks if the components renders
